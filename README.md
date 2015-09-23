@@ -38,7 +38,7 @@ docker run -t \
  -v /data/youtrack/data/:/opt/youtrack/data/ \
  -v /data/youtrack/backup/:/opt/youtrack/backup/ \
  -p 80:80 \
- uniplug/youtrack
+ tonidy/youtrack-docker
 ```
 
 ### Service example
