@@ -5,7 +5,7 @@ Based on YouTrack 6.5.16713 (September, 15 2015)
 This repository contains a Docker image of JetBrains [YouTrack](http://www.jetbrains.com/youtrack).
 
 * The Docker image is available at [tonidy/youtrack](https://registry.hub.docker.com/u/tonidy/youtrack)
-* The GitHub repository is available at [tonidy/youtrack-cdocker](https://github.com/tonidy/youtrack-cdocker)
+* The GitHub repository is available at [tonidy/youtrack-cdocker](https://github.com/tonidy/youtrack-docker)
 * This project based on [uniplug/youtrack](https://registry.hub.docker.com/u/uniplug/youtrack)
 
 ## Usage
@@ -13,19 +13,19 @@ This repository contains a Docker image of JetBrains [YouTrack](http://www.jetbr
 First, pull the Docker image using the following command:
 
 ```bash
-docker pull tonidy/youtrack
+docker pull tonidy/youtrack-docker
 ```
 
 Next, create a container.
 
 ```bash
-docker run -t tonidy/youtrack
+docker run -t tonidy/youtrack-docker
 ```
 
 YouTrack starts and listens on port 80 in the container. To map it to the host's port 80, use the following command to create the container instead:
 
 ```bash
-docker run --name="youtrack" -p 80:80 -t tonidy/youtrack
+docker run --name="youtrack" -p 80:80 -t tonidy/youtrack-docker
 ```
 
 ### Additional settings
