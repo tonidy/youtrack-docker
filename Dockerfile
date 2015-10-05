@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER tech@uniplug.ru
+MAINTAINER toni_d_y@L1V3.com
 
 WORKDIR /opt/youtrack
 
