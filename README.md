@@ -4,8 +4,8 @@ Based on YouTrack 6.5.16807 (October, 1 2015)
 
 This repository contains a Docker image of JetBrains [YouTrack](http://www.jetbrains.com/youtrack).
 
-* The Docker image is available at [tonidy/youtrack](https://registry.hub.docker.com/u/tonidy/youtrack)
-* The GitHub repository is available at [tonidy/youtrack-cdocker](https://github.com/tonidy/youtrack-docker)
+* The Docker image is available at [tonidy/youtrack-docker](https://registry.hub.docker.com/u/tonidy/youtrack-docker)
+* The GitHub repository is available at [tonidy/youtrack-docker](https://github.com/tonidy/youtrack-docker)
 * This project based on [uniplug/youtrack](https://registry.hub.docker.com/u/uniplug/youtrack)
 
 ## Usage
