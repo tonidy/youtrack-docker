@@ -1,6 +1,6 @@
 # YouTrack on Docker
 
-Based on YouTrack 6.5.16713 (September, 15 2015)
+Based on YouTrack 6.5.16807 (October, 1 2015)
 
 This repository contains a Docker image of JetBrains [YouTrack](http://www.jetbrains.com/youtrack).
 
