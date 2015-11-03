@@ -46,8 +46,8 @@ docker run -t \
 ```ini
 [Unit]
 Description=YouTrack
-After=docker.service nginx-proxy.service
-Requires=docker.service nginx-proxy.service
+After=docker.service
+Requires=docker.service
 
 [Service]
 KillMode=none
@@ -58,6 +58,6 @@ ExecStart=/usr/bin/docker run -t \
           -v /data/youtrack/data/:/opt/youtrack/data/ \
           -v /data/youtrack/backup/:/opt/youtrack/backup/ \
           -e VIRTUAL_HOST=youtrack.example.com \
-          uniplug/youtrack
+          tonidy/youtrack-docker
 ExecStop=-/usr/bin/docker stop youtrack
 ```
